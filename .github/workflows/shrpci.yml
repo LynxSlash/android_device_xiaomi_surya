@@ -8,15 +8,15 @@ on:
 env:
   MANIFEST: "https://github.com/SHRP/manifest -b shrp-12.1"
   # Recovery Manifest URL with -b branch
-  DT_LINK: "https://github.com/SHRP-Devices/device_xiaomi_surya"
+  DT_LINK: "https://github.com/LynxSlash/recovery_device_redmi_rosemary"
   # Your Device Tree Link
   VENDOR: "xiaomi"
   # Your Device's Vendor name as in used inside DT. Example: xiaomi, samsung, asus, etc.
-  CODENAME: "surya"
+  CODENAME: "rosemary"
   # Your Device's Codename as in used inside DT." Example: nikel, phoenix, ginkgo, etc.
   KERNEL_LINK: ""
   # Kernel repo link with optional -b branch. Only for building kernel from source. Ignore if using prebuilt.
-  TARGET: "recoveryimage"
+  TARGET: "bootimage"
   # Set as recoveryimage (or bootimage if no recovery partition avaiable)
   FLAVOR: "eng"
   # eng by default, change the variable if you want userdebug
